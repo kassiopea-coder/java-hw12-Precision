@@ -7,26 +7,18 @@
 На тестирование затрачено: 30 минут
 
 В результате тестирования выявлены следующие дефекты:
-* [Результат расчета бонуса вычисляется некорректно ](https://github.com/kassiopea-coder/java-hw12-Precision/issues/1)
+* [Некорректный расчет итогового бонуса](https://github.com/kassiopea-coder/java-hw12-Precision/issues/1)
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты*:
 * [ТЗ для тестирования](https://github.com/netology-code/javaqa-homeworks/tree/master/programming)
-* код приложения: 
-   > public class Main {
-    public static void main(String[] args) {
-    double regularBonus = 0.3;
-    double specialBonus = 0.6;
-    double totalBonus = regularBonus + specialBonus;
-    System.out.println(totalBonus);
-  }
-}
- 
+* [Код приложения](https://github.com/netology-code/javaqa-homeworks/tree/master/programming#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2---precision) 
+   
 
   
 В качестве тестовых данных использовались данные из ТЗ:
-* часть кода из приложения для подсчета бонуса. Был проведен позитивный тест кода, с использованием исходных данных
+* часть кода из приложения для подсчета бонуса.
 
 ## Рекомендации 
 Рекомендовано пересмотреть работу приложения с использованием переменных другого типа
